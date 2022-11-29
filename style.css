@@ -1,0 +1,45 @@
+/*================================================
+          common css
+=====================================================*/
+body{
+    /*color: #666666;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+   font-weight: 400;
+    line-height: 1.6em;
+    margin: 0;
+    margin-top: 10px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+     width: 96%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.aligenleft{
+float: left;
+margin-right: 15px;
+margin-bottom: 15px;
+}
+.aligenright{
+float: right;
+}
+.aligencenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+p{font-weight: 400;margin-bottom: 20px;}
+h1,h2,h3,h4,h5,h6{font-weight: 700;margin-bottom: 15px;}
+
+/*================================================
+          top header css
+=====================================================*/
+
+.error{
+    color: red;
+    font-size: 20px;
+}
